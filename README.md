@@ -26,3 +26,9 @@ conda activate venv
 ```bash
 pip install -r requirements.txt
 ```
+
+- command to run bot
+
+```bash
+python telebot.py
+```

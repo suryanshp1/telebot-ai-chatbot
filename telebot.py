@@ -90,7 +90,7 @@ async def ai_bot(message: Message) -> None:
     await bot.send_message(chat_id=message.chat.id, text=reference.response)
 
 async def main() -> None:
-    await dispatcher.start_polling(bot, skip_updates=True)
+    await dispatcher.start_polling(bot, skip_updates=False)
 
 if __name__ == '__main__':
     asyncio.run(main())
